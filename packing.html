@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2026 TCYA Taiwan Service Learning Trip - Packing List</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #2c3e50;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f4f7f6;
+        }
+        h1 {
+            color: #1e5631;
+            border-bottom: 3px solid #1e5631;
+            padding-bottom: 10px;
+            text-align: center;
+            margin-bottom: 5px;
+        }
+        .subtitle {
+            text-align: center;
+            color: #7f8c8d;
+            font-size: 1.1rem;
+            margin-top: 0;
+            margin-bottom: 25px;
+        }
+        .important-notice {
+            background-color: #fcf8e3;
+            border-left: 5px solid #f0ad4e;
+            color: #c09853;
+            padding: 15px;
+            margin-bottom: 30px;
+            border-radius: 4px;
+            font-size: 0.95rem;
+        }
+        .important-notice strong {
+            color: #b94a48;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+        }
+        @media(min-width: 768px) {
+            .container {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+        .category {
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            border-top: 4px solid #16a085;
+        }
+        .category.strict {
+            border-top: 4px solid #c0392b;
+        }
+        .category h2 {
+            color: #2c3e50;
+            font-size: 1.2rem;
+            margin-top: 0;
+            border-bottom: 1px solid #ecf0f1;
+            padding-bottom: 8px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        li {
+            margin-bottom: 14px;
+            display: flex;
+            align-items: flex-start;
+        }
+        input[type="checkbox"] {
+            margin-right: 12px;
+            margin-top: 5px;
+            transform: scale(1.1);
+            cursor: pointer;
+        }
+        .item-details {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+        .item-header {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 6px;
+            margin-bottom: 2px;
+        }
+        .item-name {
+            font-weight: 600;
+            color: #2c3e50;
+        }
+        /* Color-coded Status Tags */
+        .status-tag {
+            font-size: 0.7rem;
+            padding: 1px 6px;
+            border-radius: 4px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.3px;
+        }
+        .status-tag.required {
+            background-color: #fadbd8;
+            color: #c0392b;
+        }
+        .status-tag.recommended {
+            background-color: #d4efdf;
+            color: #196f3d;
+        }
+        .status-tag.optional {
+            background-color: #ebf5fb;
+            color: #2e86c1;
+        }
+        .status-tag.if-needed {
+            background-color: #f5eef8;
+            color: #7d3c98;
+        }
+        .note {
+            font-size: 0.85rem;
+            color: #7f8c8d;
+            line-height: 1.4;
+        }
+        .prohibited-box {
+            background-color: #fdf2f2;
+            border: 1px solid #f5c6cb;
+            color: #721c24;
+            padding: 15px;
+            border-radius: 6px;
+            margin-top: 20px;
+        }
+        .prohibited-box h3 {
+            margin-top: 0;
+            color: #721c24;
+            font-size: 1.1rem;
+        }
+        .prohibited-box ul {
+            list-style: disc;
+            padding-left: 20px;
+        }
+        .prohibited-box li {
+            display: list-item;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>2026 TCYA Taiwan Service Learning Trip</h1>
+    <p class="subtitle">Official Recommended Packing & Travel Preparation List (June 29 – July 10, 2026)</p>
+
+    <div class="important-notice">
+        <strong>Important Lodging & Weather Note:</strong> Accommodation is provided at the local Tzu Chi Jing Si Halls in Hualien and Taipei. While bedding, soap, shampoo, and toilet paper are provided by the facility, <strong>all other personal toiletries must be brought by the student.</strong> The weather will be hot, humid, and occasionally rainy, so please plan accordingly.
+    </div>
+
+    <div class="container">
+
+        <!-- TRAVEL DOCUMENTS & MONEY -->
+        <div class="category">
+            <h2>Documents & Currency</h2>
+            <ul>
+                <li>
+                    <input type="checkbox" id="doc1">
+                    <label for="doc1" class="item-details">
+                        <span class="item-header">
+                            <span class="item-name">Passport</span>
+                            <span class="status-tag required">Required</span>
+                        </span>
+                        <span class="note">Must be valid. To be safe, the passport should expire on or after January 10, 2027 (6 months post-return).</span>
+                    </label>
+                </li>
+                <li>
+                    <input type="checkbox" id="doc2">
+                    <label for="doc2" class="item-details">
+                        <span class="item-header">
+                            <span class="item-name">Digital Taiwan Arrival Card</span>
+                            <span class="status-tag required">Required</span>
+                        </span>
+                        <span class="note">Mandatory digital entry card. Complete online before arrival. Print a copy if traveling without a phone.</span>
+                    </label>
+                </li>
+                <li>
+                    <input type="checkbox" id="doc3">
+                    <label for="doc3" class="item-details">
+                        <span class="item-header">
+                            <span class="item-name">Visa Documentation</span>
+                            <span class="status-tag if-needed">If Needed</span>
+                        </span>
+                        <span class="note">Verify requirements before traveling. Ensure necessary paperwork is secured.</span>
+                    </label>
+                </li>
+                <li>
+                    <input type="checkbox" id="doc5">
+                    <label for="doc5" class="item-details">
+                        <span class="item-header">
+                            <span class="item-name">Coin Purse or Small Wallet</span>
+                            <span class="status-tag recommended">Recommended</span>
+                        </span>
+                        <span class="note">Taiwan is a cash-centric society, and you will accumulate many coins (1, 5, 10, and 50 NTD). A small coin pouch makes transactions at night markets and convenience stores much easier.</span>
+                    </label>
+                </li>
+                <li>
+                    <input type="checkbox" id="doc4">
+                    <label for="doc4" class="item-details">
+                        <span class="item-header">
+                            <span class="item-name">Spending Money (~1,500 NTD cash)</span>
+                            <span class="status-tag optional">Optional</span>
+                        </span>
+                        <span class="note">Recommended for snacks, souvenirs, and night markets. Exchange USD to NTD prior to meeting the group, as there may be no time for exchanging once with the group.</span>
+                    </label>
+                </li>
+            </ul>
+        </div>
+
+        <!-- MANDATORY UNIFORM REQUIREMENTS -->
+        <div class="category strict">
+            <h2>Uniform</h2>
+            <ul>
+                <li>
+                    <input type="checkbox" id="uni1">
+                    <label for="uni1" class="item-details">
+                        <span class="item-header">
+                            <span class="item-name">Tzu Shao Polos (Recommend at least 3x)</span>
+                            <span class="status-tag required">Required</span>
+                        </span>
+                        <span class="note">Must be worn daily.</span>
+                    </label>
+                </li>
+                <li>
+                    <input type="checkbox" id="uni2">
+                    <label for="uni2" class="item-details">
+                        <span class="item-header">
+                            <span class="item-name">Solid White Pants (Recommend at least 2x)</span>
+                            <span class="status-tag required">Required</span>
+                        </span>
+                        <span class="note">True white only. Stretchy materials recommended. No off-white, cream, or beige. No denim, leggings, joggers, sweatpants, or skinny jeans. No logos.</span>
+                    </label>
+                </li>
+                <li>
+                    <input type="checkbox" id="uni3">
+                    <label for="uni3" class="item-details">
+                        <span class="item-header">
+                            <span class="item-name">Dark Blue or Black Pants (Recommend 1x)</span>
+                            <span class="status-tag required">Required</span>
+                        </span>
+                        <span class="note">To be worn with the Camp Shirt during specific events. No denim, leggings, joggers, or sweatpants. No logos.</span>
+                    </label>
+                </li>
+                <li>
+                    <input type="checkbox" id="uni4">
+                    <label for="uni4" class="item-details">
+                        <span class="item-header">
+                            <span class="item-name">Tzu Shao Belt & Buckle (Recommend at least 1x)</span>
+                            <span class="status-tag required">Required</span>
+                        </span>
+                        <span class="note">No other belts are allowed.</span>
+                    </label>
+                </li>
+                <li>
+                    <input type="checkbox" id="uni5">
+                    <label for="uni5" class="item-details">
+                        <span class="item-header">
+                            <span class="item-name">White Socks (Recommend at least 4x pairs)</span>
+                            <span class="status-tag required">Required</span>
+                        </span>
+                        <span class="note">Visible part must be solid white and at least ankle-length or higher. No low-cut/no-show socks.</span>
+                    </label>
+                </li>
+                <li>
+                    <input type="checkbox" id="uni6">
+                    <label for="uni6" class="item-details">
+                        <span class="item-header">
+                            <span class="item-name">Tzu Chi Sock Covers (Recommend at least 3x pairs)</span>
+                            <span class="status-tag required">Required</span>
+                        </span>
+                        <span class="note">Used in indoor spaces.</span>
+                    </label>
+                </li>
+                <li>
+                    <input type="checkbox" id="uni7">
+                    <label for="uni7" class="item-details">
+                        <span class="item-header">
+                            <span class="item-name">Solid White Shoes (Recommend 1x pair)</span>
+                            <span class="status-tag required">Required</span>
+                        </span>
+                        <span class="note">Must be solid white. No colored markings are permitted. Logos are fine as long as they are white.</span>
+                    </label>
+                </li>
+                <li>
+                    <input type="checkbox" id="uni8">
+                    <label for="uni8" class="item-details">
+                        <span class="item-header">
+                            <span class="item-name">Tzu Chi Hair Ribbons (Recommend at least 1x pair)</span>
+                            <span class="status-tag if-needed">If Needed</span>
+                        </span>
+                        <span class="note">Required for female students to style hair in braids during formal situations.</span>
+                    </label>
+                </li>
+                <li>
+                    <input type="checkbox" id="uni9">
+                    <label for="uni9" class="item-details">
+                        <span class="item-header">
+                            <span class="item-name">Tzu Chi Hat</span>
+                            <span class="status-tag optional">Optional</span>
+                        </span>
+                        <span class="note">If a hat is worn outdoors, it must be an official Tzu Chi hat purchased from the Tzu Chi bookstore. Students will have time to purchase this in person in Taiwan.</span>
+                    </label>
+                </li>
+            </ul>
+        </div>
+
+        <!-- MODEST SLEEPWEAR & DORM WEAR -->
+        <div class="category strict">
+            <h2>Sleepwear & Dorm Wear</h2>
+            <ul>
+                <li>
+                    <input type="checkbox" id="sleep1">
+                    <label for="sleep1" class="item-details">
+                        <span class="item-header">
+                            <span class="item-name">Solid Dark Colored Tops (Recommend at least 1x)</span>
+                            <span class="status-tag required">Required</span>
+                        </span>
+                        <span class="note">Navy, Black, or Grey allowed. No logos, graphics, or patterns. Must have sleeves (no tank tops).</span>
+                    </label>
+                </li>
+                <li>
+                    <input type="checkbox" id="sleep2">
+                    <label for="sleep2" class="item-details">
+                        <span class="item-header">
+                            <span class="item-name">Solid Dark Colored Pants (Recommend at least 1x)</span>
+                            <span class="status-tag required">Required</span>
+                        </span>
+                        <span class="note">Navy, Black, or Grey allowed. No logos, graphics, or patterns. Must be worn outside dorm rooms when not in uniform.</span>
+                    </label>
+                </li>
+                <li>
+                    <input type="checkbox" id="sleep4">
+                    <label for="sleep4" class="item-details">
+                        <span class="item-header">
+                            <span class="item-name">Slippers / Sandals</span>
+                            <span class="status-tag recommended">Recommended</span>
+                        </span>
+                        <span class="note">Used for bathing, showering, and walking around inside the dorm room.</span>
+                    </label>
+                </li>
+                <li>
+                    <input type="checkbox" id="sleep3">
+                    <label for="sleep3" class="item-details">
+                        <span class="item-header">
+                            <span class="item-name">Solid Dark Colored Shorts (Recommend at least 1x)</span>
+                            <span class="status-tag optional">Optional</span>
+                        </span>
+                        <span class="note">Navy, Black, or Grey allowed. No logos, graphics, or patterns. Sleep shorts are only permitted while inside your dorm room.</span>
+                    </label>
+                </li>
+            </ul>
+        </div>
+
+        <!-- REQUIRED EPK MEAL KIT -->
+        <div class="category strict">
+            <h2>EPK Kit</h2>
+            <ul>
+                <li>
+                    <input type="checkbox" id="epk1">
+                    <label for="epk1" class="item-details">
+                        <span class="item-header">
+                            <span class="item-name">Tzu Chi Bowl with Lid</span>
+                            <span class="status-tag required">Required</span>
+                        </span>
+                        <span class="note">Required for meals. Any Tzu Chi Bowl w/ Lid is sufficient.</span>
+                    </label>
+                </li>
+                <li>
+                    <input type="checkbox" id="epk2">
+                    <label for="epk2" class="item-details">
+                        <span class="item-header">
+                            <span class="item-name">EPK Bag</span>
+                            <span class="status-tag required">Required</span>
+                        </span>
+                        <span class="note">To carry your dining set.</span>
+                    </label>
+                </li>
+                <li>
+                    <input type="checkbox" id="epk3">
+                    <label for="epk3" class="item-details">
+                        <span class="item-header">
+                            <span class="item-name">EPK Cup</span>
+                            <span class="status-tag required">Required</span>
+                        </span>
+                        <span class="note">Beverage cup.</span>
+                    </label>
+                </li>
+                <li>
+                    <input type="checkbox" id="epk4">
+                    <label for="epk4" class="item-details">
+                        <span class="item-header">
+                            <span class="item-name">Reusable Chopsticks / Utensils</span>
+                            <span class="status-tag required">Required</span>
+                        </span>
+                        <span class="note">Any brand is acceptable as long as they are reusable.</span>
+                    </label>
+                </li>
+            </ul>
+        </div>
+
+        <!-- PERSONAL HYGIENE & ESSENTIALS -->
+        <div class="category">
+            <h2>Personal Hygiene & Essentials</h2>
+            <ul>
+                <li>
+                    <input type="checkbox" id="pers1">
+                    <label for="pers1" class="item-details">
+                        <span class="item-header">
+                            <span class="item-name">Refillable Water Bottle</span>
+                            <span class="status-tag required">Required</span>
+                        </span>
+                        <span class="note">Essential for heat and humidity. Keep this with you for constant hydration.</span>
+                    </label>
+                </li>
+                <li>
+                    <input type="checkbox" id="pers2">
+                    <label for="pers2" class="item-details">
+                        <span class="item-header">
+                            <span class="item-name">Bath Towel</span>
+                            <span class="status-tag required">Required</span>
+                        </span>
+                        <span class="note">Dorms do not provide towels.</span>
+                    </label>
+                </li>
+                <li>
+                    <input type="checkbox" id="pers3">
+                    <label for="pers3" class="item-details">
+                        <span class="item-header">
+                            <span class="item-name">Personal Hygiene Utensils</span>
+                            <span class="status-tag required">Required</span>
+                        </span>
+                        <span class="note">Please bring your own toothbrush, toothpaste, dental floss, and deodorant. Deodorant is highly recommended as the weather will be hot—please be mindful of your roommates.</span>
+                    </label>
+                </li>
+                <li>
+                    <input type="checkbox" id="pers7">
+                    <label for="pers7" class="item-details">
+                        <span class="item-header">
+                            <span class="item-name">Underwear</span>
+                            <span class="status-tag required">Required</span>
+                        </span>
+                        <span class="note">Pack a sufficient supply for the duration of the trip.</span>
+                    </label>
+                </li>
+                <li>
+                    <input type="checkbox" id="pers6">
+                    <label for="pers6" class="item-details">
+                        <span class="item-header">
+                            <span class="item-name">Personal Medications</span>
+                            <span class="status-tag if-needed">If Needed</span>
+                        </span>
+                        <span class="note">Must be self-managed and match details submitted on your registration form.</span>
+                    </label>
+                </li>
+                <li>
+                    <input type="checkbox" id="pers8">
+                    <label for="pers8" class="item-details">
+                        <span class="item-header">
+                            <span class="item-name">Glasses / Contact Lenses & Solution</span>
+                            <span class="status-tag if-needed">If Needed</span>
+                        </span>
+                        <span class="note">Ensure you bring enough supplies and a protective case.</span>
+                    </label>
+                </li>
+                <li>
+                    <input type="checkbox" id="pers4">
+                    <label for="pers4" class="item-details">
+                        <span class="item-header">
+                            <span class="item-name">Sunblock & Sun Protection</span>
+                            <span class="status-tag recommended">Recommended</span>
+                        </span>
+                        <span class="note">Taiwan summer UV index is high.</span>
+                    </label>
+                </li>
+                <li>
+                    <input type="checkbox" id="pers5">
+                    <label for="pers5" class="item-details">
+                        <span class="item-header">
+                            <span class="item-name">Mosquito Repellent & Anti-Itch Cream</span>
+                            <span class="status-tag recommended">Recommended</span>
+                        </span>
+                        <span class="note">Highly recommended as there is an abundance of mosquitoes in Taiwan.</span>
+                    </label>
+                </li>
+                <li>
+                    <input type="checkbox" id="pers9">
+                    <label for="pers9" class="item-details">
+                        <span class="item-header">
+                            <span class="item-name">Hand Sanitizer / Wet Wipes</span>
+                            <span class="status-tag recommended">Recommended</span>
+                        </span>
+                        <span class="note">Useful in case running water and soap are not readily available.</span>
+                    </label>
+                </li>
+                <li>
+                    <input type="checkbox" id="pers10">
+                    <label for="pers10" class="item-details">
+                        <span class="item-header">
+                            <span class="item-name">Face Masks</span>
+                            <span class="status-tag optional">Optional</span>
+                        </span>
+                        <span class="note">Recommended for flights, public transit, or crowded indoor areas if desired.</span>
+                    </label>
+                </li>
+            </ul>
+        </div>
+
+        <!-- ELECTRONICS, LUGGAGE & MISCELLANEOUS -->
+        <div class="category">
+            <h2>Electronics, Luggage & Misc</h2>
+            <ul>
+                <li>
+                    <input type="checkbox" id="misc7">
+                    <label for="misc7" class="item-details">
+                        <span class="item-header">
+                            <span class="item-name">Luggage & Backpack Limits</span>
+                            <span class="status-tag required">Required</span>
+                        </span>
+                        <span class="note">Limit of 1 Checked Bag + 1 Carry-on + 1 Backpack. Luggage and backpacks must be dark, solid colors without prominent branding. Ensure you can carry your own luggage easily.</span>
+                    </label>
+                </li>
+                <li>
+                    <input type="checkbox" id="misc3">
+                    <label for="misc3" class="item-details">
+                        <span class="item-header">
+                            <span class="item-name">Portable Umbrella</span>
+                            <span class="status-tag recommended">Recommended</span>
+                        </span>
+                        <span class="note">Essential for sudden summer rains and sun shade.</span>
+                    </label>
+                </li>
+                <li>
+                    <input type="checkbox" id="misc5">
+                    <label for="misc5" class="item-details">
+                        <span class="item-header">
+                            <span class="item-name">Notebook & Pens</span>
+                            <span class="status-tag recommended">Recommended</span>
+                        </span>
+                        <span class="note">Useful for notes and reflection exercises.</span>
+                    </label>
+                </li>
+                <li>
+                    <input type="checkbox" id="misc1">
+                    <label for="misc1" class="item-details">
+                        <span class="item-header">
+                            <span class="item-name">Electronics (Phone, Laptop, or Tablet)</span>
+                            <span class="status-tag optional">Optional</span>
+                        </span>
+                        <span class="note">Ensure you bring matching charging cords and wall adapters. Electronics can only be used during specified times. Taiwan uses standard US Type A/B outlets (110V).</span>
+                    </label>
+                </li>
+                <li>
+                    <input type="checkbox" id="misc6">
+                    <label for="misc6" class="item-details">
+                        <span class="item-header">
+                            <span class="item-name">Portable Power Bank (External Battery)</span>
+                            <span class="status-tag optional">Optional</span>
+                        </span>
+                        <span class="note">Recommended if bringing personal electronics, as outlets may not always be accessible. Must be packed in carry-on luggage during flights.</span>
+                    </label>
+                </li>
+                <li>
+                    <input type="checkbox" id="misc2">
+                    <label for="misc2" class="item-details">
+                        <span class="item-header">
+                            <span class="item-name">Unlocked Phone / eSIM / SIM Card / Wi-Fi Box</span>
+                            <span class="status-tag optional">Optional</span>
+                        </span>
+                        <span class="note">Ensure your phone is carrier-unlocked if you plan to purchase a roaming data eSIM/SIM.</span>
+                    </label>
+                </li>
+                <li>
+                    <input type="checkbox" id="misc4">
+                    <label for="misc4" class="item-details">
+                        <span class="item-header">
+                            <span class="item-name">Dark, Solid Zip-up Jacket or Sweater</span>
+                            <span class="status-tag optional">Optional</span>
+                        </span>
+                        <span class="note">Must have no logos and be dark blue or black. No hoodies allowed.</span>
+                    </label>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+    <!-- PROHIBITED ITEMS BOX -->
+    <div class="prohibited-box">
+        <h3>Prohibited Items</h3>
+        <p>Possession of these items may result in immediate dismissal from the program and being sent home early at your family's expense:</p>
+        <ul>
+            <li>Firearms, weapons, or knives</li>
+            <li>Drugs, alcohol, tobacco, or cigarettes</li>
+            <li>Vapes, vape pens, or other e-cigarettes</li>
+            <li>Explicit, violent, or inappropriate materials</li>
+        </ul>
+        <p>Please use common sense to ensure everything you bring is appropriate for this trip.</p>
+    </div>
+
+</body>
+</html>
